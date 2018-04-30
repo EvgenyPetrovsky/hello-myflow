@@ -21,6 +21,6 @@ git push origin HEAD
 3. prepare branch for merge
 
 ```sh
-git pull --rebase origin master
-git git push origin HEAD
+git pull --no-edit origin master
+git push origin HEAD
 ```
