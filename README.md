@@ -15,12 +15,12 @@ git push origin HEAD
 ```sh
 git add <file>
 git commit -m "<your-commit-message>"
-git git push origin HEAD
+git push origin HEAD
 ```
 
 3. prepare branch for merge
 
 ```sh
-git pull --rebase origin master
-git git push origin HEAD
+git pull --no-edit origin master
+git push origin HEAD
 ```
