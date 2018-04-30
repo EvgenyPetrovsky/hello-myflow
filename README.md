@@ -24,3 +24,5 @@ git push origin HEAD
 git pull --no-edit origin master
 git push origin HEAD
 ```
+
+4. Make new pull request on GitHub
