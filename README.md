@@ -17,3 +17,10 @@ git add <file>
 git commit -m "<your-commit-message>"
 git git push origin HEAD
 ```
+
+3. prepare branch for merge
+
+```sh
+git pull --rebase origin master
+git git push origin HEAD
+```
